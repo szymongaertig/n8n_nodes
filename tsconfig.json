@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // needed for private fields (#private)
+    "module": "commonjs",
+    "lib": [
+      "es2020"
+    ],
+    "outDir": "dist", // all compiled JS goes here
+    "rootDir": ".", // compile from project root
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true, // optional: generate .d.ts
+    "sourceMap": true // optional: generate .map files
+  },
+  "include": [
+    "nodes/**/*.ts",
+    "jest.config.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
