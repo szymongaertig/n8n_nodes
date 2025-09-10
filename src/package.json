@@ -1,5 +1,5 @@
 {
-  "name": "garfieldsg-n8n-nodes",
+  "name": "n8n-nodes-garfieldsg",
   "version": "0.1.0",
   "main": "dist/index.js",
   "scripts": {
