@@ -37,11 +37,7 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "nodes": [
-      {
-        "nodes": [
-          "dist/nodes/PostgresDump/PostgresDump.node.js"
-        ]
-      }
+      "dist/nodes/PostgresDump/PostgresDump.node.js"
     ]
   }
 }
